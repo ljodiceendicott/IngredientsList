@@ -10,7 +10,7 @@ export class SearchPage extends Component {
       <>
         <div id="search-area">
           <h3>Search for Component</h3>
-          <SearchBar />{" "}
+          <SearchBar searchSize="Search--main" />
         </div>
       </>
     );

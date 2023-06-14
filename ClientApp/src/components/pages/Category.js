@@ -4,6 +4,10 @@ export class Category extends Component {
   static displayName = Category.name;
 
   render() {
-    return <div></div>;
+    return (
+      <div>
+        <h2>Browse By Category</h2>
+      </div>
+    );
   }
 }

@@ -1,4 +1,33 @@
-input{
+:root {
+    --light : #fff;
+    --dark : rgb(58, 57, 57);
+
+    }
+.Search{
     border-radius: 20px;
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    white-space: nowrap;
 }
 
+.Search--light{
+    background-color: var(--light);
+    color:#242424;
+    border: 1px solid var(--light);
+}
+
+.Search--dark{
+    background-color: var(--dark);
+    color : var(--light);
+    border: 1px solid var(--light);
+}
+
+.Search--menu{
+    width: 15%;
+}
+
+.Search--main{
+    width:50%;
+    margin:auto;
+}
